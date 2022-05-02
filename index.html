@@ -11,23 +11,39 @@
 </head>
 <body>
   <header class="container">
-    <div class="row col-xs-4 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+    <div class="row col-xs-4 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-around">
         <div class="col-xs-12 col-md-10 col-lg-6 row justify-content-center align-items-center floating mb-5"><img  src="./assets/css/img/Rafiki-02.png" alt=""></div>
         <ul class="nav justify-content-center floating mb-3">
           <li class="nav-item">
-            <a class="nav-link active link-secondary" aria-current="page" href="./index.html">Inicio</a>
+            <a class="nav-link link" aria-current="page" href="./index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-secondary" href="./pages/perros.html">Perros</a>
+            <a class="nav-link link" href="./pages/perros.html">Perros</a>
+            <ul class="submenu">
+              <li><a href="./pages/perros.html">Collares</a></li>
+              <li><a href="./pages/perros.html">Pretales</a></li>
+              <li><a href="./pages/perros.html">Camas</a></li>
+              <li><a href="./pages/perros.html">Platos</a></li>
+              <li><a href="./pages/perros.html">Correas</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-secondary" href="./pages/gatos.html">Gatos</a>
+            <a class="nav-link link" href="./pages/gatos.html">Gatos</a>
+            <ul class="submenu">
+              <li><a href="./pages/gatos.html">Collares</a></li>
+              <li><a href="./pages/gatos.html">Camas</a></li>
+              <li><a href="./pages/gatos.html">Platos</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-secondary" href="./pages/contacto.html">Contacto</a>
+            <a class="nav-link link" href="./pages/contacto.html">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-secondary" href="./pages/sale.html">Sale</a>
+            <a class="nav-link link" href="./pages/sale.html">Sale</a>
+            <ul class="submenu">
+              <li><a href="./pages/sale.html">Descuento -25%</a></li>
+              <li><a href="./pages/sale.html">Descuento -35%</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -71,6 +87,7 @@
           <div class="card-body">
             <h5 class="card-title text-center">Collar Gamora</h5>
             <img src="./assets/css/img/collar1.jpg" class="card-img-top floating mb-3" alt="...">
+            <span class="badge bg-secondary">Nuevo</span>
             <button type="button" class="btn btn-outline-secondary">Comprar</button>
           </div>
         </div>
@@ -88,7 +105,8 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Pretal Rocket</h5>
-             <img src="./assets/css/img/pretal1.jpg" class="card-img-top floating mb-3" alt="...">
+             <img src="./assets/css/img/pretal1.jpg"  class="card-img-top floating mb-3" alt="...">
+             <span class="badge bg-secondary">Nuevo</span>
             <button type="button" class="btn btn-outline-secondary">Comprar</button>
           </div>
         </div>
@@ -98,11 +116,20 @@
           <div class="card-body">
             <h5 class="card-title">Cama Groot</h5>
             <img src="./assets/css/img/cama.webp" class="card-img-top floating mb-3" alt="...">
+            <span class="badge bg-secondary">Sale</span>
             <button type="button" class="btn btn-outline-secondary">Comprar</button>
           </div>
         </div>
       </div>
     </div>
+  </section>
+  <section class="container floating mt-5">
+    <div class="titulo floating mb-5 text-center">
+      <h2 class="secundariotitulo">Tips de nutrición</h2>
+    </div>
+    <div class="video row col-xs-4 col-sm-12 col-md-10 col-lg-12 d-flex justify-content-center">
+      <iframe class="nutricion" width="1440" height="720" src="https://www.youtube.com/embed/6b6UabolDB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   </section>
   <br>
   <br>
